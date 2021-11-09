@@ -1,0 +1,227 @@
+{
+	"fileInfo":	{
+		"appName":	"marmelo",
+		"mbdVer":	"2.0.0"
+	},
+	"proj":	{
+		"properties":	{
+			"author":	"",
+			"title":	"",
+			"subtitle":	"",
+			"explanation":	"",
+			"read-only":	false
+		},
+		"statistics":	{
+			"numHole":	[6, 6],
+			"numParts":	3,
+			"numWires":	10,
+			"numCmtTags":	10
+		},
+		"options":	{
+			"showBackWiresOnFrontWindow":	true,
+			"showFrontWiresOnBackWindow":	true,
+			"mirrorModeOnBackWindow":	true,
+			"showCmtTags":	true
+		},
+		"parts":	[{
+				"namePMF":	"pinSocket",
+				"namePmodel":	"PS-2x5",
+				"deg":	0,
+				"pos":	[1, 1],
+				"zOrder":	1,
+				"annotation":	0,
+				"vals":	["", "", ""],
+				"comment":	""
+			}, {
+				"namePMF":	"pinSocket",
+				"namePmodel":	"PS-2x1",
+				"deg":	0,
+				"pos":	[0, 1],
+				"zOrder":	2,
+				"annotation":	1,
+				"vals":	["", "", ""],
+				"comment":	""
+			}, {
+				"namePMF":	"pinHeader",
+				"namePmodel":	"PH-1x6",
+				"deg":	0,
+				"pos":	[0, 2],
+				"zOrder":	0,
+				"annotation":	0,
+				"vals":	["", "", ""],
+				"comment":	""
+			}],
+		"wires":	[{
+				"side":	"back",
+				"shielded":	false,
+				"pos":	[0, 1],
+				"pos2":	[0, 0],
+				"color":	"0xFF",
+				"annotation":	1,
+				"vals":	["", "", ""],
+				"comment":	""
+			}, {
+				"side":	"back",
+				"shielded":	false,
+				"pos":	[0, 2],
+				"pos2":	[0, 1],
+				"color":	"0xFF",
+				"annotation":	2,
+				"vals":	["", "", ""],
+				"comment":	""
+			}, {
+				"side":	"back",
+				"shielded":	false,
+				"pos":	[5, 2],
+				"pos2":	[4, 1],
+				"color":	"0xFF",
+				"annotation":	0,
+				"vals":	["", "", ""],
+				"comment":	""
+			}, {
+				"side":	"back",
+				"shielded":	false,
+				"pos":	[4, 0],
+				"pos2":	[4, 1],
+				"color":	"0xFF",
+				"annotation":	3,
+				"vals":	["", "", ""],
+				"comment":	""
+			}, {
+				"side":	"back",
+				"shielded":	false,
+				"pos":	[3, 0],
+				"pos2":	[3, 1],
+				"color":	"0xFF",
+				"annotation":	4,
+				"vals":	["", "", ""],
+				"comment":	""
+			}, {
+				"side":	"back",
+				"shielded":	false,
+				"pos":	[3, 1],
+				"pos2":	[3, 2],
+				"color":	"0xFF",
+				"annotation":	5,
+				"vals":	["", "", ""],
+				"comment":	""
+			}, {
+				"side":	"back",
+				"shielded":	false,
+				"pos":	[1, 0],
+				"pos2":	[4, 2],
+				"color":	"0xFF",
+				"annotation":	6,
+				"vals":	["", "", ""],
+				"comment":	""
+			}, {
+				"side":	"back",
+				"shielded":	false,
+				"pos":	[2, 0],
+				"pos2":	[2, 1],
+				"color":	"0xFF",
+				"annotation":	7,
+				"vals":	["", "", ""],
+				"comment":	""
+			}, {
+				"side":	"back",
+				"shielded":	false,
+				"pos":	[2, 1],
+				"pos2":	[2, 2],
+				"color":	"0xFF",
+				"annotation":	8,
+				"vals":	["", "", ""],
+				"comment":	""
+			}, {
+				"side":	"back",
+				"shielded":	false,
+				"pos":	[1, 1],
+				"pos2":	[1, 2],
+				"color":	"0xFF",
+				"annotation":	9,
+				"vals":	["", "", ""],
+				"comment":	""
+			}],
+		"cmtTags":	[{
+				"side":	"front",
+				"xyb":	["2.818182", "2.636364"],
+				"bgColor":	"0xFFFFFF",
+				"chrColor":	"0x0",
+				"annotation":	0,
+				"vals":	["", "", ""],
+				"comment":	"G"
+			}, {
+				"side":	"front",
+				"xyb":	["5.545455", "1.636364"],
+				"bgColor":	"0xFFFFFF",
+				"chrColor":	"0xFF0000",
+				"annotation":	1,
+				"vals":	["", "", ""],
+				"comment":	"3V3"
+			}, {
+				"side":	"front",
+				"xyb":	["3.181818", "3.727273"],
+				"bgColor":	"0xFFFFFF",
+				"chrColor":	"0x8080",
+				"annotation":	2,
+				"vals":	["", "", ""],
+				"comment":	"SWCLK"
+			}, {
+				"side":	"front",
+				"xyb":	["1.000000", "5.090909"],
+				"bgColor":	"0xFFFFFF",
+				"chrColor":	"0x8080",
+				"annotation":	3,
+				"vals":	["", "", ""],
+				"comment":	"SWDIO"
+			}, {
+				"side":	"front",
+				"xyb":	["0.181818", "6.181818"],
+				"bgColor":	"0xFFFFFF",
+				"chrColor":	"0x8080",
+				"annotation":	4,
+				"vals":	["", "", ""],
+				"comment":	"NRST"
+			}, {
+				"side":	"front",
+				"xyb":	["1.090909", "0.636364"],
+				"bgColor":	"0xFFFFFF",
+				"chrColor":	"0x8080",
+				"annotation":	5,
+				"vals":	["", "", ""],
+				"comment":	"R"
+			}, {
+				"side":	"front",
+				"xyb":	["2.727273", "0.045455"],
+				"bgColor":	"0xFFFFFF",
+				"chrColor":	"0x0",
+				"annotation":	6,
+				"vals":	["", "", ""],
+				"comment":	"G"
+			}, {
+				"side":	"front",
+				"xyb":	["3.545455", "-0.590909"],
+				"bgColor":	"0xFFFFFF",
+				"chrColor":	"0xFF0000",
+				"annotation":	7,
+				"vals":	["", "", ""],
+				"comment":	"3V3"
+			}, {
+				"side":	"front",
+				"xyb":	["0.909091", "-0.500000"],
+				"bgColor":	"0xFFFFFF",
+				"chrColor":	"0x4080",
+				"annotation":	8,
+				"vals":	["", "", ""],
+				"comment":	"C"
+			}, {
+				"side":	"front",
+				"xyb":	["1.909091", "-0.727273"],
+				"bgColor":	"0xFFFFFF",
+				"chrColor":	"0x4080",
+				"annotation":	9,
+				"vals":	["", "", ""],
+				"comment":	"D"
+			}]
+	}
+}
