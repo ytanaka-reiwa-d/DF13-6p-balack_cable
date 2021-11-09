@@ -1,0 +1,24 @@
+# eclipse specific git ignore
+.metadata/
+RemoteSystemsTempFiles/
+.settings/
+*.launch
+Debug/
+Release/
+!/app_common_lib/Debug/
+!/app_common_lib/Release/
+/app_common_lib/Debug/*
+!/app_common_lib/Debug/libapp_common_lib.a
+/app_common_lib/Release/*
+!/app_common_lib/Release/libapp_common_lib.a
+!/l496zg_common_lib/Debug/
+!/l496zg_common_lib/Release/
+/l496zg_common_lib/Debug/*
+!/l496zg_common_lib/Debug/libl496zg_common_lib.a
+/l496zg_common_lib/Release/*
+!/l496zg_common_lib/Release/libl496zg_common_lib.a
+
+# STM32 git ignore
+*.mxproject
+
+.svnignore

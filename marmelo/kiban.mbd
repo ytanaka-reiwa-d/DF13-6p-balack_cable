@@ -13,7 +13,7 @@
 		},
 		"statistics":	{
 			"numHole":	[6, 6],
-			"numParts":	3,
+			"numParts":	2,
 			"numWires":	10,
 			"numCmtTags":	10
 		},
@@ -33,15 +33,6 @@
 				"vals":	["", "", ""],
 				"comment":	""
 			}, {
-				"namePMF":	"pinSocket",
-				"namePmodel":	"PS-2x1",
-				"deg":	0,
-				"pos":	[0, 1],
-				"zOrder":	2,
-				"annotation":	1,
-				"vals":	["", "", ""],
-				"comment":	""
-			}, {
 				"namePMF":	"pinHeader",
 				"namePmodel":	"PH-1x6",
 				"deg":	0,
@@ -54,8 +45,8 @@
 		"wires":	[{
 				"side":	"back",
 				"shielded":	false,
-				"pos":	[0, 1],
-				"pos2":	[0, 0],
+				"pos":	[0, 2],
+				"pos2":	[5, 1],
 				"color":	"0xFF",
 				"annotation":	1,
 				"vals":	["", "", ""],
@@ -63,8 +54,8 @@
 			}, {
 				"side":	"back",
 				"shielded":	false,
-				"pos":	[0, 2],
-				"pos2":	[0, 1],
+				"pos":	[5, 0],
+				"pos2":	[5, 1],
 				"color":	"0xFF",
 				"annotation":	2,
 				"vals":	["", "", ""],
